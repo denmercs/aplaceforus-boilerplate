@@ -1,0 +1,112 @@
+body {
+  background-color: $first-grey;
+}
+
+.hero {
+  background-color: $second-color;
+  height: 597px;
+
+  &-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      height: 600px;
+      width: auto;
+    }
+
+    &-text {
+      color: #fff;
+      h3 {
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+      }
+
+      h1 {
+        text-transform: uppercase;
+      }
+      p {
+        margin: $margin-six 0;
+      }
+    }
+  }
+
+  &-button {
+    color: #fff;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: 6px solid white;
+    border-radius: 20px;
+    padding: $padding-two $padding-eight;
+    margin-left: $margin-five;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    &:hover {
+      color: white;
+      border: 6px solid $third-color;
+      background-color: $third-color;
+    }
+  }
+}
+
+.contact {
+  background-color: $second-grey;
+  height: 1010px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3 {
+    color: $first-color;
+    margin-top: $margin-two;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+  }
+
+  p {
+    position: relative;
+    margin-top: $margin-three;
+    text-align: center;
+  }
+
+  &-block {
+    margin-top: $margin-one;
+    height: 10px;
+    width: 350px;
+    background-color: $first-color;
+  }
+}
+
+.form {
+  margin-top: $margin-six;
+  display: flex;
+  flex-direction: column;
+
+  &-label {
+    display: flex;
+    flex-direction: row;
+  }
+
+  input {
+    width: 300px;
+    margin: 0 $margin-three;
+    padding: $padding-one;
+  }
+
+  textarea {
+    width: 720px;
+    margin-top: $margin-two;
+  }
+}

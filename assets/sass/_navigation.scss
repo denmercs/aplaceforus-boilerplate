@@ -1,0 +1,14 @@
+#logo {
+  width: 300px;
+  height: auto;
+}
+
+.navbar {
+  ul li {
+    text-transform: uppercase;
+
+    a:hover {
+      color: $second-color;
+    }
+  }
+}

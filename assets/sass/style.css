@@ -1,0 +1,151 @@
+#logo {
+  width: 300px;
+  height: auto;
+}
+
+.navbar ul li {
+  text-transform: uppercase;
+}
+
+.navbar ul li a:hover {
+  color: #522e38;
+}
+
+body {
+  background-color: #e4e4e4;
+}
+
+.hero {
+  background-color: #522e38;
+  height: 597px;
+}
+
+.hero-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-layout img {
+  height: 600px;
+  width: auto;
+}
+
+.hero-layout-text {
+  color: #fff;
+}
+
+.hero-layout-text h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.hero-layout-text h1 {
+  text-transform: uppercase;
+}
+
+.hero-layout-text p {
+  margin: 60px 0;
+}
+
+.hero-button {
+  color: #fff;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border: 6px solid white;
+  border-radius: 20px;
+  padding: 20px 80px;
+  margin-left: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.hero-button:hover {
+  color: white;
+  border: 6px solid #d5679a;
+  background-color: #d5679a;
+}
+
+.contact {
+  background-color: #cdcdcd;
+  height: 1010px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact h3 {
+  color: #79223d;
+  margin-top: 20px;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.contact p {
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact-block {
+  margin-top: 10px;
+  height: 10px;
+  width: 350px;
+  background-color: #79223d;
+}
+
+.form {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.form input {
+  width: 300px;
+  margin: 0 30px;
+  padding: 10px;
+}
+
+.form textarea {
+  width: 720px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */
