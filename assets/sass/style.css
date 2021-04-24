@@ -39,6 +39,7 @@ body {
 
 .hero-layout-text {
   color: #fff;
+  margin-left: 50px;
 }
 
 .hero-layout-text h3 {
@@ -56,26 +57,27 @@ body {
 }
 
 .hero-button {
-  color: #fff;
-  background-color: Transparent;
-  background-repeat: no-repeat;
-  border: none;
+  color: white;
+  background-color: #d5679a;
+  border: 6px solid #d5679a;
+  padding: 10px 80px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
   cursor: pointer;
   overflow: hidden;
-  outline: none;
-  border: 6px solid white;
   border-radius: 20px;
-  padding: 20px 80px;
-  margin-left: 50px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 20px;
-  letter-spacing: 2px;
+}
+
+.hero-button:hover {
+  color: #e4e4e4;
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
 }
 
 .hero-button:hover {
   color: white;
-  border: 6px solid #d5679a;
   background-color: #d5679a;
 }
 
@@ -124,13 +126,23 @@ body {
       -ms-grid-row-align: center;
       align-self: center;
   margin-top: 60px;
-  text-decoration: none;
-  text-transform: uppercase;
-  border: 4px solid #d5679a;
-  padding: 10px 50px;
-  border-radius: 20px;
   color: white;
   background-color: #d5679a;
+  border: 6px solid #d5679a;
+  padding: 10px 80px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.contact-bottom:hover {
+  color: #e4e4e4;
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
 }
 
 .contact-bottom:hover {
@@ -170,11 +182,14 @@ body {
 }
 
 .footer {
-  height: 150px;
-  background-color: #522e38;
+  background-color: #79223d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -187,10 +202,30 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 60px 0;
 }
 
 .footer-text p {
   margin: 0 auto;
   color: white;
+}
+
+.footer-year {
+  background-color: #522e38;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  padding: 20px 0;
 }
 /*# sourceMappingURL=style.css.map */

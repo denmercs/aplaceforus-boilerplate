@@ -18,6 +18,8 @@ body {
 
     &-text {
       color: #fff;
+      margin-left: $margin-seven;
+
       h3 {
         font-size: 18px;
         text-transform: uppercase;
@@ -34,25 +36,10 @@ body {
   }
 
   &-button {
-    color: #fff;
-    background-color: Transparent;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    border: 6px solid white;
-    border-radius: 20px;
-    padding: $padding-two $padding-eight;
-    margin-left: $margin-five;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 2px;
+    @include button-fill;
 
     &:hover {
       color: white;
-      border: 6px solid $third-color;
       background-color: $third-color;
     }
   }
@@ -91,13 +78,7 @@ body {
   &-bottom {
     align-self: center;
     margin-top: $margin-six;
-    text-decoration: none;
-    text-transform: uppercase;
-    border: 4px solid $third-color;
-    padding: $padding-one $padding-five;
-    border-radius: 20px;
-    color: white;
-    background-color: $third-color;
+    @include button-fill;
 
     &:hover {
       color: $second-grey;
@@ -128,18 +109,32 @@ body {
 }
 
 .footer {
-  height: 150px;
-  background-color: $second-color;
+  background-color: $first-color;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 
   &-text {
     display: flex;
     align-items: center;
+    padding: $padding-six 0;
 
     p {
       margin: 0 auto;
       color: white;
     }
+  }
+
+  &-year {
+    background-color: $second-color;
+    text-align: center;
+    font-size: 14px;
+    margin-top: $margin-three;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: $padding-two 0;
   }
 }
