@@ -74,6 +74,7 @@ body {
   color: #e4e4e4;
   -webkit-filter: brightness(0.9);
           filter: brightness(0.9);
+  text-decoration: none;
 }
 
 .hero-button:hover {
@@ -143,6 +144,7 @@ body {
   color: #e4e4e4;
   -webkit-filter: brightness(0.9);
           filter: brightness(0.9);
+  text-decoration: none;
 }
 
 .contact-bottom:hover {
@@ -227,5 +229,91 @@ body {
           align-items: center;
   color: white;
   padding: 20px 0;
+}
+
+.accomodation-intro {
+  margin: 80px 0;
+}
+
+.accomodation-intro h3,
+.accomodation-intro p {
+  text-align: center;
+}
+
+.accomodation-intro h3 {
+  text-transform: uppercase;
+}
+
+.accomodation-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.accomodation-text {
+  padding: 30px;
+  margin-bottom: 80px;
+}
+
+.carousel {
+  width: 600px;
+  height: auto;
+}
+
+.services {
+  background-color: #e4e4e4;
+  margin: 80px 0;
+}
+
+.services-intro {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.services-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.services-info img {
+  width: 500px;
+  height: auto;
+  margin-top: 50px;
+}
+
+.services-info-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.services .card {
+  padding: 30px;
+  margin: 20px;
+}
+
+.services .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .fa {
+  font-size: 48px;
+  padding-bottom: 20px;
+  color: #79223d;
 }
 /*# sourceMappingURL=style.css.map */

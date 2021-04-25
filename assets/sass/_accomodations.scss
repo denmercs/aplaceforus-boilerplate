@@ -1,0 +1,28 @@
+.accomodation {
+  &-intro {
+    margin: $margin-eight 0;
+
+    h3,
+    p {
+      text-align: center;
+    }
+
+    h3 {
+      text-transform: uppercase;
+    }
+  }
+
+  &-info {
+    display: flex;
+  }
+
+  &-text {
+    padding: $padding-three;
+    margin-bottom: $margin-eight;
+  }
+}
+
+.carousel {
+  width: 600px;
+  height: auto;
+}
