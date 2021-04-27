@@ -1,0 +1,25 @@
+.footer {
+  background-color: $first-color;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+
+  &-text {
+    display: flex;
+    align-items: center;
+    padding: $padding-two 0;
+
+    p {
+      margin: 0 auto;
+      color: white;
+    }
+  }
+
+  &-year {
+    background-color: $second-color;
+    text-align: center;
+    padding: $padding-one 0;
+    font-size: 14px;
+    color: white;
+  }
+}
