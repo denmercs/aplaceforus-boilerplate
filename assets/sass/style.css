@@ -11,8 +11,12 @@
   color: #522e38;
 }
 
+header {
+  background-color: #fff;
+}
+
 body {
-  background-color: #e4e4e4;
+  background-color: #f7f7f7;
 }
 
 .hero {
@@ -83,7 +87,7 @@ body {
 }
 
 .contact {
-  background-color: #cdcdcd;
+  background-color: #f7f7f7;
   height: 550px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -148,7 +152,7 @@ body {
 }
 
 .contact-bottom:hover {
-  color: #cdcdcd;
+  color: #f7f7f7;
 }
 
 .form {
@@ -196,7 +200,7 @@ body {
 }
 
 .accomodation {
-  min-height: 70vh;
+  min-height: 75vh;
 }
 
 .accomodation-intro {
@@ -229,7 +233,7 @@ body {
 }
 
 .services {
-  background-color: #e4e4e4;
+  background-color: #f7f7f7;
   margin: 80px 0;
 }
 
@@ -288,8 +292,6 @@ body {
 
 .footer {
   background-color: #79223d;
-  position: -webkit-sticky;
-  position: sticky;
   bottom: 0;
   width: 100%;
 }
