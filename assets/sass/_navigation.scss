@@ -13,6 +13,89 @@
   }
 }
 
-header {
-  background-color: #fff;
+.navbar {
+  position: relative;
+  padding-right: 320px;
+}
+
+.nav-item {
+  padding: 0 10px;
+
+  a {
+    color: $first-color;
+  }
+}
+
+.bookmark {
+  background: url(../images/bookmark.svg) no-repeat;
+  background-position: top right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 200px;
+  width: 300px;
+  display: flex;
+
+  a {
+    position: relative;
+    top: 50px;
+    right: -70px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 21px;
+  }
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(213, 103, 154)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: $third-color;
+}
+
+@media screen and (max-width: 1440px) {
+  .bookmark {
+    width: 200px;
+
+    a {
+      font-size: 16px;
+      right: -46px;
+      top: 30px;
+    }
+  }
+
+  .nav-item {
+    padding: 0 5px;
+    font-size: 14px;
+  }
+
+  .navbar {
+    padding-right: 220px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bookmark {
+    display: none;
+  }
+
+  .navbar {
+    padding-right: 40px;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #logo {
+    width: 180px;
+  }
+
+  .navbar {
+    padding-right: 20px;
+  }
 }

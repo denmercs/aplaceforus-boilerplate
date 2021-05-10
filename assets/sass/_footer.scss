@@ -1,7 +1,5 @@
 .footer {
   background-color: $first-color;
-  bottom: 0;
-  width: 100%;
 
   &-text {
     display: flex;
@@ -20,5 +18,19 @@
     padding: $padding-one 0;
     font-size: 14px;
     color: white;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    &-text {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      p {
+        padding: 10px 0;
+      }
+    }
   }
 }

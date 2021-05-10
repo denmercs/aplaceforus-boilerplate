@@ -1,5 +1,4 @@
 .services {
-  background-color: $second-grey;
   margin: $margin-eight 0;
 
   &-intro {
@@ -39,5 +38,15 @@
     font-size: 48px;
     padding-bottom: $padding-two;
     color: $first-color;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .services {
+    .card {
+      width: 360px;
+      padding: 10px;
+      margin: 20px 0;
+    }
   }
 }

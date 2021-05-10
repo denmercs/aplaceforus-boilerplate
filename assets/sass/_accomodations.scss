@@ -29,7 +29,33 @@
   height: auto;
 }
 
+@media screen and (max-width: 768px) {
+  .accomodation {
+    &-info {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 
-@media screen {
-  
+  .carousel {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .accomodation {
+    &-intro {
+      margin: $margin-four 0;
+    }
+  }
+
+  .carousel {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .carousel {
+    width: 300px;
+  }
 }

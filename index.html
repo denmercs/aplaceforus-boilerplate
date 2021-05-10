@@ -10,61 +10,76 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" id="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" id="logo"></a>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="accomodations.html">Accomodation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="accomodations.html">Accomodation</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="services.html">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About Us</a>
-                </li>
-              
-              </ul>
-            </div>
-          </nav>
+          </ul>
+        </div>
+      </nav>
+        <div class="bookmark">
+          <a href="#schedule">Schedule Now</a>
+        </div>
     </header>
     <main>
-    <!-- hero  -->
-    <div class="hero">
-        <div class="hero-layout container">
-            <div class="hero-layout-text">
-                <h3>Welcome to</h3>
-                <h1>A Place For Us</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
-                 Voluptates provident distinctio assumenda eum error <br> praesentium.</p>
-                <a href="./accomodations.html" class="hero-button">Tour</a>
-            </div>
-
+      <!-- JUMBOTRON -->
+      <section class="jumbotron">
+        <div class="jumbotron-text">
+          <h1>A place i call <span>home</span></h1>
+          <p>Welcome to A Place For Us. At our home, seniors are invited to live life together <br>
+            and are cared for by loving stafff assisting them with: <br>
+            cleaning, bathing, eating, and just plain enjoying life in a loving home. 
+          </p>
+          <a href="#schedule" class="primary-button">Schedule Now</a>
         </div>
-    </div>
+        <img src="./assets/images/photocouple.png" alt="couple picture" >
+      </section>
+      <section id="schedule" class="schedule">
+        <div class="schedule-image">
+        </div>
 
-    <div class="contact">
-        <h3>connect with us</h3>
-        <div class="contact-block"></div>
-        <p>We would love to hear from you. Please contact us if you’d like to schedule a tour, 
-        <br> join us for a meal, have questions, or anything you would like to share!</p>
-        
-        <form class="form">
-            <div class="form-label">
-                <input type="text" id="fname" name="fname" placeholder="First Name"><br>
-                <input type="text" id="lname" name="lname" placeholder="Last Name">
+        <!-- CONTACT -->
+        <div class="schedule-contact">
+          <h3>Connect with us</h3>
+          <div class="schedule-contact-line"></div>
+          <p>We would love to hear from you. Please contact us if you'd like to schedule a tour, <br>
+          join us for a meal, have questions, or anything you would like to share!</p> 
+          <form class="schedule-form">
+            <div class="form-group">
+              <input type="email" class="form-control form-control-lg" id="contactEmail" placeholder="Email">
             </div>
-            <textarea placeholder="message"></textarea>
-            <a href="#" class="contact-bottom">Submit</a>
-        </form>
-    </div>
+            <div class="form-group">
+              <input type="text" class="form-control form-control-lg" id="contactFirstname" placeholder="First Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control form-control-lg" id="contactLastname" placeholder="Last Name">
+            </div>
+            
+            <div class="form-group">
+              <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+            </div>
+            <a href="#" class="primary-button">Submit</a>
+          </form>
+        </div>
+      </section>
+  
     </main>
     <footer class="footer">
             <div class="footer-text container">
@@ -76,8 +91,6 @@
                 <p>© 2021 | Powered by DennisCodes</p>
             </div>
         </div>
-
-    
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
